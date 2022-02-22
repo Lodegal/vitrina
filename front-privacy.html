@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>FinPump | Политика конфиденциальности</title>
+
+    <!--  Slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap-select -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+
+    <!--  Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+<!-- HEADER -->
+<header class="header js-header">
+    <div class="container header__container">
+        <a href="index.html" class="logo">
+            <img src="img/logo.svg" alt="logo">
+        </a>
+        <div class="header__navigation">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item"><a href="index.html#about" class="menu__link">О нас</a></li>
+                    <li class="menu__item"><a href="index.html#advertising" class="menu__link">Рекламные блоки</a></li>
+                    <li class="menu__item"><a href="index.html#income" class="menu__link">Калькулятор доходности</a>
+                    </li>
+                    <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+                    <li class="menu__item"><a href="front-faq.html" class="menu__link">FAQ</a></li>
+                    <li class="menu__item"><a href="index.html#contacts" class="menu__link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="accounting">
+                <button class="accounting__btn accounting__btn_login" type="button" data-toggle="modal"
+                        data-target="#login-modal">ВХОД
+                </button>
+                <button class="accounting__btn accounting__btn_registration" type="button" data-toggle="modal"
+                        data-target="#registration-modal">РЕГИСТРАЦИЯ
+                </button>
+            </div>
+        </div>
+        <!-- Add class "-hide" to make this block invisible -->
+        <select class="languages js-languages">
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+        </select>
+        <a href="#" class="hamburger-menu js-hamburger-menu" aria-label="Toggle menu">
+            <div class="hamburger-menu__wrap">
+                <div class="hamburger-menu__bars"></div>
+            </div>
+        </a>
+    </div>
+</header>
+<!-- HEADER END -->
+
+<!-- FIXED-MENU -->
+<div class="fixed-menu" data-scroll-lock-scrollable>
+    <nav class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="index.html#about" class="menu__link">О нас</a></li>
+            <li class="menu__item"><a href="index.html#advertising" class="menu__link">Рекламные блоки</a></li>
+            <li class="menu__item"><a href="index.html#income" class="menu__link">Калькулятор доходности</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+            <li class="menu__item"><a href="front-faq.html" class="menu__link">FAQ</a></li>
+            <li class="menu__item"><a href="index.html#contacts" class="menu__link">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="accounting">
+        <button class="accounting__btn accounting__btn_login" type="button" data-toggle="modal"
+                data-target="#login-modal">ВХОД
+        </button>
+        <button class="accounting__btn accounting__btn_registration" type="button" data-toggle="modal"
+                data-target="#registration-modal">РЕГИСТРАЦИЯ
+        </button>
+    </div>
+    <div class="fixed-menu__bottom">
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_886_7473)">
+                            <path class="social-list__icon-bg"
+                                  d="M14.0177 0.452637C6.27403 0.452637 0 6.7332 0 14.4849C0 22.2366 6.27403 28.5171 14.0177 28.5171C21.7613 28.5171 28.0353 22.2366 28.0353 14.4849C28.0353 6.7332 21.7613 0.452637 14.0177 0.452637ZM20.9021 10.0659L18.6016 20.9182C18.4321 21.6877 17.9742 21.8745 17.3355 21.5123L13.8311 18.9265L12.1411 20.5561C11.9546 20.7428 11.7963 20.9012 11.4346 20.9012L11.6833 17.3309L18.1777 11.4578C18.4603 11.2088 18.1156 11.0674 17.7425 11.3163L9.71627 16.3747L6.25707 15.294C5.50532 15.0564 5.48836 14.5415 6.41534 14.1793L19.9299 8.96252C20.5573 8.73619 21.1056 9.11529 20.9021 10.0659Z"
+                                  fill="#3D3A71"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_886_7473">
+                                <rect width="28.0353" height="28.9698" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <svg width="29" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_886_7470)">
+                            <circle class="social-list__icon-bg" cx="15.4722" cy="14.5005" r="14.4849"
+                                    fill="#3D3A71"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M22.6413 16.7112C22.6413 16.7112 24.1968 18.2475 24.5816 18.9584C24.5891 18.9687 24.595 18.98 24.5989 18.9921C24.7557 19.2547 24.7942 19.4606 24.7173 19.6125C24.5874 19.8636 24.1478 19.9896 23.9987 20.0002H21.2493C21.0579 20.0002 20.6596 19.9502 20.1748 19.6154C19.8044 19.3567 19.436 18.9305 19.0791 18.514C18.5462 17.8954 18.0854 17.3586 17.6188 17.3586C17.5599 17.3585 17.5014 17.3683 17.4457 17.3875C17.0926 17.4991 16.6444 18.0022 16.6444 19.3422C16.6444 19.7617 16.3134 20.0002 16.0816 20.0002H14.8224C14.3933 20.0002 12.1596 19.8502 10.1789 17.7617C7.75183 15.2048 5.57199 10.0755 5.55083 10.0303C5.41519 9.69841 5.69994 9.51756 6.00777 9.51756H8.78404C9.15632 9.51756 9.27753 9.74266 9.36218 9.94468C9.46031 10.1765 9.82393 11.1039 10.4204 12.1457C11.3862 13.8407 11.9797 14.5304 12.454 14.5304C12.5431 14.5307 12.6307 14.5075 12.7079 14.4631C13.3275 14.1225 13.212 11.91 13.1832 11.454C13.1832 11.3655 13.1822 10.4661 12.8647 10.0313C12.6377 9.71957 12.251 9.59836 12.0172 9.55411C12.0798 9.46369 12.2125 9.32516 12.3828 9.24339C12.807 9.03176 13.5737 9.00098 14.3346 9.00098H14.757C15.5823 9.01252 15.7959 9.06543 16.096 9.14143C16.7001 9.28572 16.7117 9.67725 16.6588 11.0105C16.6434 11.3915 16.627 11.8205 16.627 12.3256C16.627 12.4333 16.6222 12.5536 16.6222 12.6757C16.6039 13.3597 16.5799 14.1302 17.0628 14.4467C17.1254 14.4857 17.1978 14.5064 17.2716 14.5064C17.4389 14.5064 17.9401 14.5064 19.2994 12.1736C19.8958 11.1433 20.3576 9.92832 20.3893 9.83693C20.4163 9.78595 20.4971 9.64262 20.5952 9.5849C20.665 9.54776 20.7432 9.52921 20.8222 9.53103H24.0881C24.4441 9.53103 24.6855 9.5849 24.7327 9.71957C24.8115 9.93794 24.7173 10.6046 23.2262 12.6209C22.9751 12.9566 22.7548 13.2471 22.5615 13.5011C21.2099 15.275 21.2099 15.3645 22.6413 16.7112V16.7112Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_886_7470">
+                                <rect width="28.9698" height="28.9698" fill="white"
+                                      transform="translate(0.987305 0.015625)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_886_7479)">
+                            <path class="social-list__icon-bg" fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M0.90918 14.5814C0.90918 21.7828 6.13944 27.7711 12.9799 28.9854V18.5237H9.35871V14.5005H12.9799V11.2813C12.9799 7.66003 15.3132 5.64905 18.6134 5.64905C19.6587 5.64905 20.7861 5.80959 21.8314 5.97013V9.67223H19.981C18.2102 9.67223 17.8082 10.557 17.8082 11.6844V14.5005H21.6709L21.0275 18.5237H17.8082V28.9854C24.6487 27.7711 29.879 21.784 29.879 14.5814C29.879 6.57005 23.3608 0.015625 15.3941 0.015625C7.42739 0.015625 0.90918 6.57005 0.90918 14.5814Z"
+                                  fill="#3D3A71"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_886_7479">
+                                <rect width="28.9698" height="28.9698" fill="white"
+                                      transform="translate(0.90918 0.015625)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="#" class="social-list__link">
+                    <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_886_7475)">
+                            <ellipse class="social-list__icon-bg" cx="15.4473" cy="14.5005" rx="14.4849"
+                                     ry="14.4849" fill="#3D3A71"/>
+                            <path d="M24.6522 8.98167C24.001 9.27026 23.3013 9.46525 22.5658 9.55338C23.3247 9.09928 23.8925 8.38458 24.1632 7.54264C23.4502 7.96615 22.6698 8.26426 21.8561 8.424C21.3088 7.8397 20.584 7.45242 19.7941 7.32228C19.0042 7.19214 18.1934 7.32643 17.4877 7.70429C16.7819 8.08215 16.2207 8.68245 15.891 9.41198C15.5614 10.1415 15.4818 10.9595 15.6647 11.7388C14.22 11.6663 12.8066 11.2908 11.5164 10.6367C10.2262 9.98257 9.08794 9.06447 8.1755 7.94198C7.86352 8.48015 7.68413 9.10412 7.68413 9.76865C7.68378 10.3669 7.8311 10.9559 8.11301 11.4836C8.39493 12.0112 8.80272 12.4611 9.30021 12.7934C8.72325 12.775 8.15903 12.6191 7.65449 12.3386V12.3854C7.65443 13.2245 7.94466 14.0377 8.47593 14.6871C9.00721 15.3365 9.7468 15.7821 10.5692 15.9483C10.034 16.0932 9.47285 16.1145 8.92817 16.0107C9.16021 16.7326 9.61219 17.364 10.2209 17.8163C10.8295 18.2686 11.5644 18.5192 12.3226 18.5331C11.0355 19.5435 9.44598 20.0915 7.8097 20.0891C7.51985 20.0892 7.23025 20.0723 6.94238 20.0384C8.6033 21.1063 10.5367 21.6731 12.5113 21.6709C19.1956 21.6709 22.8497 16.1347 22.8497 11.3333C22.8497 11.1773 22.8458 11.0197 22.8388 10.8637C23.5496 10.3497 24.1631 9.71319 24.6507 8.98401L24.6522 8.98167V8.98167Z"
+                                  fill="white"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_886_7475">
+                                <rect width="28.9698" height="28.9698" fill="white"
+                                      transform="translate(0.962402 0.015625)"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </a>
+            </li>
+        </ul>
+        <div class="fixed-menu__text">© “FinPump”, 2018 -
+            <script type="text/javascript">
+                var d = new Date();
+                document.write(d.getFullYear());
+            </script>
+        </div>
+    </div>
+</div>
+<!-- FIXED-END -->
+
+<div class="wrapper">
+    <main class="main">
+
+        <!-- Regulations -->
+        <section class="regulations">
+            <div class="container regulations__container">
+                <h1 class="regulations__title">Политика конфиденциальности</h1>
+                <div class="regulations__text">
+                    <p>Политика конфиденциальности и неразглашения персональной информации</p>
+                    <p>Данная политика конфиденциальности предусмотрена Finpump.com с целью обеспечить неприкосновенность частной информации участников рекламной сети. Пожалуйста, внимательно ознакомьтесь с информацией ниже с целью предотвращения каких-либо недоразумений касающихся Вашей личной информации.</p>
+                    <p>Что предусматривает данная политика конфиденциальности</p>
+                    <p>Данная политика конфиденциальности предусматривает наше обращение с личной информацией, поступающей к нам посредством вебсайта, который принадлежит нам и которым управляем мы. Эта политика конфиденциальности не распространяется на деятельность компаний, не находящихся в нашем прямом подчинении, а также лиц, не являющихся нашими сотрудниками, включая лиц, предоставляющих контент, третьих сторон, а также любого рода вебсайтов третьей стороны, на которые может ссылаться наш вебсайт.</p>
+                    <p>Получение и использование личной информации</p>
+                    <p>Нам нужна определенная личная информация при размещении рекламных материалов, при регистрации аккаунта, для получения по подписке письма с новостями, или для того, чтобы пользоваться некоторыми видами наших услуг. В случаях, если или когда это необходимо, эта информация может включать Вашу контактную информацию и /или контактную информацию Вашей компании. Мы будем использовать эту информацию для того, чтобы отвечать на Ваши вопросы, предоставлять Вам наши продукты и услуги, чтобы создать аккаунт и сообщить Вам о новых продуктах и услугах. Обращаясь к нашим услугам и добровольно предоставляя нам необходимую личную информацию, Вы даете согласие на получение и использование информации в соответствии с данной политикой конфиденциальности.</p>
+                    <p>Получение и использование информации, не являющейся личной</p>
+                    <p>Мы автоматически получаем и фиксируем определенного рода информацию, которая не является личной, в протоколах регистрации нашего сервера, которая передается Вашим браузером и включает Ваш IP адрес, информацию о Cookies и страницу запроса. Мы можем использовать эту информацию для того, чтобы адаптировать к требованиям пользователей содержание, которое Вы видите, а также выполнять Ваши просьбы, касающиеся определенных продуктов и услуг. Несмотря на это, мы не устанавливаем связи между информацией, не являющейся личной, и любыми личными данными, поступающими от Вас. Cookies не имеют никакой связи с личной информацией. Мы не берем на себя никакой ответственности или обязательств за их использование.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Regulations END -->
+
+    </main>
+    <footer class="footer" id="contacts">
+    <div class="container footer__container">
+        <div class="footer-nav">
+            <div class="footer-nav__item">
+                <div class="footer-nav__title">О нас</div>
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">О проекте</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Работа у нас</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-nav__item">
+                <div class="footer-nav__title">Платформа</div>
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Рекламные блоки</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Преимущества FinPump</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Калькулятор доходности</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-nav__item">
+                <div class="footer-nav__title">Поддержка</div>
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">F.A.Q.</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Тех. документация</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">Блог</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-nav__item">
+                <div class="footer-nav__title">Остались вопросы</div>
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__list-item">
+                        <a href="mailto:support@finpump.com" class="footer-nav__link">support@finpump.com</a>
+                    </li>
+                    <li class="footer-nav__list-item">
+                        <a href="#" class="footer-nav__link">finpump_support</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="footer__copyright">© “FinPump”, 2018 -
+                <script type="text/javascript">
+                    var d = new Date();
+                    document.write(d.getFullYear());
+                </script>
+            </div>
+            <ul class="footer-refs">
+                <li class="footer-refs__item">
+                    <a href="front-rules.html" class="footer-refs__link">
+                        Пользовательское соглашение
+                    </a>
+                </li>
+                <li class="footer-refs__item">
+                    <a href="front-privacy.html" class="footer-refs__link">
+                        Политика конфиденциальности
+                    </a>
+                </li>
+            </ul>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="#" class="social-list__link">
+                        <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_886_7473)">
+                                <path class="social-list__icon-bg"
+                                      d="M14.0177 0.452637C6.27403 0.452637 0 6.7332 0 14.4849C0 22.2366 6.27403 28.5171 14.0177 28.5171C21.7613 28.5171 28.0353 22.2366 28.0353 14.4849C28.0353 6.7332 21.7613 0.452637 14.0177 0.452637ZM20.9021 10.0659L18.6016 20.9182C18.4321 21.6877 17.9742 21.8745 17.3355 21.5123L13.8311 18.9265L12.1411 20.5561C11.9546 20.7428 11.7963 20.9012 11.4346 20.9012L11.6833 17.3309L18.1777 11.4578C18.4603 11.2088 18.1156 11.0674 17.7425 11.3163L9.71627 16.3747L6.25707 15.294C5.50532 15.0564 5.48836 14.5415 6.41534 14.1793L19.9299 8.96252C20.5573 8.73619 21.1056 9.11529 20.9021 10.0659Z"
+                                      fill="#3D3A71"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_886_7473">
+                                    <rect width="28.0353" height="28.9698" fill="white"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="#" class="social-list__link">
+                        <svg width="29" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_886_7470)">
+                                <circle class="social-list__icon-bg" cx="15.4722" cy="14.5005" r="14.4849"
+                                        fill="#3D3A71"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M22.6413 16.7112C22.6413 16.7112 24.1968 18.2475 24.5816 18.9584C24.5891 18.9687 24.595 18.98 24.5989 18.9921C24.7557 19.2547 24.7942 19.4606 24.7173 19.6125C24.5874 19.8636 24.1478 19.9896 23.9987 20.0002H21.2493C21.0579 20.0002 20.6596 19.9502 20.1748 19.6154C19.8044 19.3567 19.436 18.9305 19.0791 18.514C18.5462 17.8954 18.0854 17.3586 17.6188 17.3586C17.5599 17.3585 17.5014 17.3683 17.4457 17.3875C17.0926 17.4991 16.6444 18.0022 16.6444 19.3422C16.6444 19.7617 16.3134 20.0002 16.0816 20.0002H14.8224C14.3933 20.0002 12.1596 19.8502 10.1789 17.7617C7.75183 15.2048 5.57199 10.0755 5.55083 10.0303C5.41519 9.69841 5.69994 9.51756 6.00777 9.51756H8.78404C9.15632 9.51756 9.27753 9.74266 9.36218 9.94468C9.46031 10.1765 9.82393 11.1039 10.4204 12.1457C11.3862 13.8407 11.9797 14.5304 12.454 14.5304C12.5431 14.5307 12.6307 14.5075 12.7079 14.4631C13.3275 14.1225 13.212 11.91 13.1832 11.454C13.1832 11.3655 13.1822 10.4661 12.8647 10.0313C12.6377 9.71957 12.251 9.59836 12.0172 9.55411C12.0798 9.46369 12.2125 9.32516 12.3828 9.24339C12.807 9.03176 13.5737 9.00098 14.3346 9.00098H14.757C15.5823 9.01252 15.7959 9.06543 16.096 9.14143C16.7001 9.28572 16.7117 9.67725 16.6588 11.0105C16.6434 11.3915 16.627 11.8205 16.627 12.3256C16.627 12.4333 16.6222 12.5536 16.6222 12.6757C16.6039 13.3597 16.5799 14.1302 17.0628 14.4467C17.1254 14.4857 17.1978 14.5064 17.2716 14.5064C17.4389 14.5064 17.9401 14.5064 19.2994 12.1736C19.8958 11.1433 20.3576 9.92832 20.3893 9.83693C20.4163 9.78595 20.4971 9.64262 20.5952 9.5849C20.665 9.54776 20.7432 9.52921 20.8222 9.53103H24.0881C24.4441 9.53103 24.6855 9.5849 24.7327 9.71957C24.8115 9.93794 24.7173 10.6046 23.2262 12.6209C22.9751 12.9566 22.7548 13.2471 22.5615 13.5011C21.2099 15.275 21.2099 15.3645 22.6413 16.7112V16.7112Z"
+                                      fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_886_7470">
+                                    <rect width="28.9698" height="28.9698" fill="white"
+                                          transform="translate(0.987305 0.015625)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="#" class="social-list__link">
+                        <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_886_7479)">
+                                <path class="social-list__icon-bg" fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M0.90918 14.5814C0.90918 21.7828 6.13944 27.7711 12.9799 28.9854V18.5237H9.35871V14.5005H12.9799V11.2813C12.9799 7.66003 15.3132 5.64905 18.6134 5.64905C19.6587 5.64905 20.7861 5.80959 21.8314 5.97013V9.67223H19.981C18.2102 9.67223 17.8082 10.557 17.8082 11.6844V14.5005H21.6709L21.0275 18.5237H17.8082V28.9854C24.6487 27.7711 29.879 21.784 29.879 14.5814C29.879 6.57005 23.3608 0.015625 15.3941 0.015625C7.42739 0.015625 0.90918 6.57005 0.90918 14.5814Z"
+                                      fill="#3D3A71"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_886_7479">
+                                    <rect width="28.9698" height="28.9698" fill="white"
+                                          transform="translate(0.90918 0.015625)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="#" class="social-list__link">
+                        <svg width="30" height="29" viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_886_7475)">
+                                <ellipse class="social-list__icon-bg" cx="15.4473" cy="14.5005" rx="14.4849"
+                                         ry="14.4849" fill="#3D3A71"/>
+                                <path d="M24.6522 8.98167C24.001 9.27026 23.3013 9.46525 22.5658 9.55338C23.3247 9.09928 23.8925 8.38458 24.1632 7.54264C23.4502 7.96615 22.6698 8.26426 21.8561 8.424C21.3088 7.8397 20.584 7.45242 19.7941 7.32228C19.0042 7.19214 18.1934 7.32643 17.4877 7.70429C16.7819 8.08215 16.2207 8.68245 15.891 9.41198C15.5614 10.1415 15.4818 10.9595 15.6647 11.7388C14.22 11.6663 12.8066 11.2908 11.5164 10.6367C10.2262 9.98257 9.08794 9.06447 8.1755 7.94198C7.86352 8.48015 7.68413 9.10412 7.68413 9.76865C7.68378 10.3669 7.8311 10.9559 8.11301 11.4836C8.39493 12.0112 8.80272 12.4611 9.30021 12.7934C8.72325 12.775 8.15903 12.6191 7.65449 12.3386V12.3854C7.65443 13.2245 7.94466 14.0377 8.47593 14.6871C9.00721 15.3365 9.7468 15.7821 10.5692 15.9483C10.034 16.0932 9.47285 16.1145 8.92817 16.0107C9.16021 16.7326 9.61219 17.364 10.2209 17.8163C10.8295 18.2686 11.5644 18.5192 12.3226 18.5331C11.0355 19.5435 9.44598 20.0915 7.8097 20.0891C7.51985 20.0892 7.23025 20.0723 6.94238 20.0384C8.6033 21.1063 10.5367 21.6731 12.5113 21.6709C19.1956 21.6709 22.8497 16.1347 22.8497 11.3333C22.8497 11.1773 22.8458 11.0197 22.8388 10.8637C23.5496 10.3497 24.1631 9.71319 24.6507 8.98401L24.6522 8.98167V8.98167Z"
+                                      fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_886_7475">
+                                    <rect width="28.9698" height="28.9698" fill="white"
+                                          transform="translate(0.962402 0.015625)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<div class="menu-overlay"></div>
+</div>
+<!-- Registration-modal -->
+<div class="modal fade modal-form" data-scroll-lock-scrollable id="registration-modal" tabindex="-1" role="dialog"
+     aria-labelledby="registration-modal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="modal-form__title">
+                    Заполните простую форму регистрации
+                </div>
+                <form method="post" action="#" id="registration-form">
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" name="skype" placeholder="Skype">
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="password" name="password" placeholder="Пароль">
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="password" name="password" placeholder="Пароль еще раз">
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="newsletter" name="subscribe" checked>
+                        <label class="custom-control-label" for="newsletter">Получать новостные рассылки</label>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="rules-confirmation" name="rules">
+                        <label class="custom-control-label" for="rules-confirmation">Я ознакомился с положениями <a href="front-rules.html">Пользовательского соглашения</a>, понимаю их и
+                            принимаю в полной мере *</label>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Login-modal -->
+<div class="modal fade modal-form" data-scroll-lock-scrollable id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modal"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="modal-form__title">
+                    Вход на сайт
+                </div>
+                <form method="post" action="#" id="login-form">
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="password" name="password" placeholder="Пароль" required>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Войти</button>
+                </form>
+                <div class="anchors">
+                    <span class="anchor recovery-anchor" data-dismiss="modal" data-toggle="modal" data-target="#recovery-modal">Забыли пароль?</span>
+                    <span class="anchor registration-anchor" data-dismiss="modal" data-toggle="modal" data-target="#registration-modal">Регистрация</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Recovery-modal -->
+<div class="modal fade modal-form" data-scroll-lock-scrollable id="recovery-modal" tabindex="-1" role="dialog" aria-labelledby="recovery-modal"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                <div class="modal-form__title">
+                    Восстановление пароля
+                </div>
+                <form method="post" action="#" id="recovery-form">
+                    <div class="modal-form__item">
+                        <input class="modal-form__input" type="text" name="email" placeholder="Электронная почта" required>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Восстановить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CDN -->
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<!-- Bootstrap select -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+<!-- Slick -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Select2 -->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<!-- CDN END -->
+
+<!--  Libs connection -->
+
+<!-- Scroll-lock -->
+<script src="libs/scroll-lock-master/scroll-lock.min.js"></script>
+
+<!-- Main JavaScript file -->
+<script src="js/main.min.js"></script>
+</body>
+</html>
