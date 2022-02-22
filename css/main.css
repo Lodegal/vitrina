@@ -2246,6 +2246,12 @@ a:hover {
   box-shadow: 0 6px 30px #A6C0E8 !important;
 }
 
+.invalid-feedback {
+  color: #FF3B72;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+}
+
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
   width: 100%;
 }

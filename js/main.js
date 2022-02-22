@@ -9,7 +9,20 @@ jQuery(function ($) {
     initReviewsSlider();
     initMenuSettings();
     initHamburgerMenu();
-  }); // HAMBURGER MENU
+    initOpenNewModal();
+  });
+  $(window).on({
+    'orientationchange resize': function orientationchangeResize(e) {
+      if ($('.js-hamburger-menu').hasClass('-active') && $(this).width() > 1199) removeFixedMenu();
+    }
+  }); // ANCHORS
+
+  function initOpenNewModal() {
+    $('#registration-modal, #recovery-modal').on('shown.bs.modal', function (e) {
+      if (!$('body').hasClass("modal-open")) $('body').addClass("modal-open");
+    });
+  } // HAMBURGER MENU
+
 
   function initHamburgerMenu() {
     $('.js-hamburger-menu').on('click', function (e) {
