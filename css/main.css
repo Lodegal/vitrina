@@ -2705,6 +2705,10 @@ a:hover {
   height: auto;
 }
 
+.review__content {
+  padding: 25px 0;
+}
+
 .review__title {
   font: italic 32px/140% TT Hoves;
   margin-bottom: 30px;
@@ -4211,6 +4215,10 @@ ul.forums-list {
   .review__img--circle {
     padding-top: 0;
     padding-bottom: 0;
+  }
+
+  .review__content {
+    padding: 0;
   }
 
   .review__title {
